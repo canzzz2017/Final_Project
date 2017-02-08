@@ -1,2 +1,13 @@
 <html>
- 
+ <head>Main Page</head> 
+ <body>
+ <ul class="topnav" id="myTopnav">
+  <li><a href="#about">About</a></li>
+  <li><a href="#locations">Locations</a></li>
+  <li><a href="#donations">Donations</a></li>
+  <li><a href="#maps">Maps</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+ </ul>
+ </body>
