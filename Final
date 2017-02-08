@@ -1,13 +1,118 @@
 <html>
- <head>Main Page</head> 
+ <title>Main Page</title> 
  <body>
- <ul class="topnav" id="myTopnav">
-  <li><a href="#about">About</a></li>
-  <li><a href="#locations">Locations</a></li>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="#">Research</a>
+      <a href="#">Nutrition</a>
+      <a href="#">Why It Is Important</a>
+      <a href="#">Contact</a>  
+    </div>
+  </li>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Locations</a>
+    <div class="dropdown-content">
+      <a href="#">Grocery Stores</a>
+      <a href="#">Restaurants</a>
+      <a href="#">Volunteer</a>
+    </div>
+  </li>
   <li><a href="#donations">Donations</a></li>
   <li><a href="#maps">Maps</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-  </li>
- </ul>
- </body>
+  
+</ul>
+
+<h1><center>Your Quick Access to a Healthy Lifestyle</center></h1>
+<img src="http://danielmitel.com/wp-content/uploads/2016/10/skin-healthy-food-1409877801.jpg" alt="Healthy Food" style="width:400px;height:300px;">
+
+<h3><center>Navigate the bar for more information.</center></h3>
+<a href="#" class="myButton">LOCATE</a>
+<style>
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:20px;
+	padding:20px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style
+
+
+</body>
+</html>
